@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="row g-0"> <!-- Основной блок для работы с колонками -->
+    <div class="col-2"> <!-- Колонка шириной 1/12 для размещения контента -->
+        <div class="container-fluid">
+            <div class="card bg-black" style="height: 100rem">
+                <ul class="list-group list-group-flush sticky-top">
+                    <h5 class="text-white mt-1 ms-3">Меню</h5>
+                    <a href="#" class="list-group-item list-group-item-action active text-white bg-black" aria-current="true">Главная</a>
+                    <a href="#" class="list-group-item list-group-item-action active text-white bg-black" aria-current="true">Категории</a>
+                    <a href="#" class="list-group-item list-group-item-action active text-white bg-black" aria-current="true">Заказы</a>
+                    <a href="#" class="list-group-item list-group-item-action active text-white bg-black" aria-current="true">Контакты</a>
+                </ul>
+                <div class="dropdown ">
+                    <button class="position-fixed bottom-0 bg-black text-white col-1"
+                            type="button" data-bs-toggle="dropdown">Пользователь</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Профиль</a></li>
+                        <li><a class="dropdown-item" href="#">Выйти</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-10"> <!-- Колонка шириной 10/12 для размещения основного контента -->
+        <div class="row">
+            <h2 class="col text-center">Главная</h2>
+        </div>
+            <div class="row">
+            <p class="col text-center">Вы находитесь на сайте, предназначенном для продажи товаров.</p>
+        </div>
+        <div>
+            <div class="row">
+                <div class="card text-center mb-3" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Товар 1</h5>
+                    <h6 class="card-title">$ 100</h6>
+                    <p class="card-text">10 users included, 2 GB of storage, Email support, Help center access</p>
+                    <a href="#" class="btn btn-primary">Купить</a>
+                </div>
+                </div>
+                <div class="card text-center mb-3" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Товар 1</h5>
+                    <h6 class="card-title">$ 100</h6>
+                    <p class="card-text">10 users included, 2 GB of storage, Email support, Help center access</p>
+                    <a href="#" class="btn btn-primary">Купить</a>
+                </div>
+                </div>
+                <div class="card text-center mb-3" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Товар 1</h5>
+                    <h6 class="card-title">$ 100</h6>
+                    <p class="card-text">10 users included, 2 GB of storage, Email support, Help center access</p>
+                    <a href="#" class="btn btn-primary">Купить</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js">
+</script>
+</body>
+</html>
