@@ -1,10 +1,94 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Каталог</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
 </head>
 <body>
-
+<div class="row"> <!-- Основной блок для работы с колонками -->
+    <div class="col-2 g-0"> <!-- Колонка шириной 1/12 для размещения контента -->
+        <div class="container-fluid">
+            <div class="card bg-black" style="height: 100rem">
+                <ul class="list-group list-group-flush sticky-top">
+                    <h5 class="text-white mt-1 ms-3">Меню</h5>
+                    <a href="#" class="list-group-item list-group-item-action active text-white bg-black" aria-current="true">Главная</a>
+                    <a href="#" class="list-group-item list-group-item-action active text-white bg-black" aria-current="true">Категории</a>
+                    <a href="#" class="list-group-item list-group-item-action active text-white bg-black" aria-current="true">Заказы</a>
+                    <a href="#" class="list-group-item list-group-item-action active text-white bg-black" aria-current="true">Контакты</a>
+                </ul>
+                <div class="dropdown ">
+                    <button class="position-fixed bottom-0 bg-black text-white col-1"
+                            type="button" data-bs-toggle="dropdown">Пользователь</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Профиль</a></li>
+                        <li><a class="dropdown-item" href="#">Выйти</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-10"> <!-- Колонка шириной 10/12 для размещения основного контента -->
+        <div class="row mt-5">
+            <h1 class="col text-center">Каталог</h1>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-5 ms-5">
+                <div class="card mt-5 mb-5 me-5 ms-5" style="width: 18rem;">
+                        <img src="" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <div class="card-row">
+                                <a href="#" class="btn btn-secondary">View</a>
+                                <a href="#" class="btn btn-secondary">Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-5">
+                <div class="card mt-5 mb-5 me-5 ms-5" style="width: 18rem;">
+                        <img src="" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <div class="card-row">
+                                <a href="#" class="btn btn-secondary">View</a>
+                                <a href="#" class="btn btn-secondary">Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-5 ms-5">
+                <div class="card mt-5 mb-5 me-5 ms-5" style="width: 18rem;">
+                        <img src="" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <div class="card-row">
+                                <a href="#" class="btn btn-secondary">View</a>
+                                <a href="#" class="btn btn-secondary">Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-5">
+                <div class="card mt-5 mb-5 me-5 ms-5" style="width: 18rem;">
+                        <img src="" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <div class="card-row">
+                                <a href="#" class="btn btn-secondary">View</a>
+                                <a href="#" class="btn btn-secondary">Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js">
+</script>
 </body>
 </html>
